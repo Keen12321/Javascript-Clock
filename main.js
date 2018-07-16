@@ -22,8 +22,7 @@ function showTime() {
 
 	var time = h + ":" + m + ":" + s
 
-	document.getElementById("clock").innertext = time
-	document.getElementById("clock").textContent = time
+	document.getElementById("clock").innerHTML = time
 }
 
 setInterval(showTime, 1000)

@@ -26,9 +26,9 @@ function showTime() {
 
 	var color = "#" + h + m + s
 
-	document.getElementById("clock").innertext = color
-	document.getElementById("clock").textContent = color
+	document.getElementById("clock").innerHTML = color
 	document.body.style.background = color
+
 }
 
 setInterval(showTime, 10)
