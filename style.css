@@ -1,0 +1,21 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+body {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+}
+
+#clock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 600px;
+    height: 200px;
+    font-size: 115px;
+    color: rgb(0,249,255);
+}
